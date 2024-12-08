@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd6691ed-0d55-49ef-a9d0-d4755acf1fe2">
+  <name>apiOrg_ПолучениеСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Api org получение сообщений</value>
+  </synonym>
+  <rootURL>organizational</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c451fe3a-764f-4dcf-ac31-9de67b08a484">
+    <name>ПриемСообщейний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием сообщейний</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="90616301-5dd7-4cee-8c76-ced31b62db5b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПриемСообщейнийPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

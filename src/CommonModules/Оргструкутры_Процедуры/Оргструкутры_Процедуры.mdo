@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe7cffc4-4863-403c-b65e-c1eab4576dfd">
+  <name>Оргструкутры_Процедуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оргструкутры процедуры</value>
+  </synonym>
+  <server>true</server>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

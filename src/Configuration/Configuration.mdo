@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0be8bbc7-440c-495b-95d7-0c917edc7ccd">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f39aa90f-99d1-41db-9908-43983d93df2f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5645745e-2441-48f3-83f2-f3a9ed7a480a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c3deb3b4-2a57-4004-b4f0-d32ee58b4d94"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="79e6bf92-6166-4efa-82c9-dbaca2bba657"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="802099ac-b6bb-4c5b-aec4-748f7a5f1795"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b51b2071-aec1-405e-9ce8-4ee083f3b6ec"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0e5a4825-5f1a-4793-b074-1deafbe11db0"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="1126ad12-e704-4ebe-a88c-1db30971a755">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.api_ПроцедурыОбмена</commonModules>
+  <commonModules>CommonModule.Оргструкутры_Процедуры</commonModules>
+  <httpServices>HTTPService.apiOrg_ПолучениеСообщений</httpServices>
+  <catalogs>Catalog.Оргструктура</catalogs>
+</mdclass:Configuration>
